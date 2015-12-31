@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+<title>Simple Stock Chart</title>
+</head>
+<body>
+	<div>
+		<h2>Simple stock chart for a 6-month period</h2>
+  		<h4>Please enter a valid stock ticker</h4>
+  		<form id = 'ticker_input' method = 'post' action = 'chart' >
+    		<p>
+    		Ticker symbol: <input type='text' name='ticker' />
+      		</p>
+      		
+      	<p>
+    		Opening price <input type='checkbox' name='type' value='open' />
+      		Highest price <input type='checkbox' name='type' value='high' />
+      		Closing price <input type='checkbox' name='type' value='close' />
+      	</p>
+      	
+      		<p>
+    		<input type='submit' value='Submit' />
+      		</p>
+      	
+    	</form>
+	</div>
+</body>
+</html>
