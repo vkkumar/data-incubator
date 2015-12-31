@@ -6,7 +6,7 @@ abstract-rendering=0.5.1=np19py27_0
 alabaster=0.7.6=py27_0
 anaconda=2.3.0=np19py27_0
 anaconda-client=1.0.2=py27_0
-appnope=0.1.0=py27_0
+#appnope=0.1.0=py27_0
 appscript=1.0.1=py27_0
 argcomplete=0.8.9=py27_0
 astropy=1.0.6=np110py27_0
